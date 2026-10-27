@@ -91,6 +91,4 @@ SecureMail AI is an educational, rule-based prototype. It is not a trained machi
 
 Created as an educational portfolio project exploring cybersecurity, phishing awareness, and practical security tools.
 
-## 📄 License
 
-For educational and portfolio use. Add an open-source license if you decide to distribute the project under specific reuse terms.
