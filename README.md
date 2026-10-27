@@ -3,7 +3,7 @@
 
 **An educational email phishing detection dashboard built with Python and Streamlit.**
 
-[🚀 Live Demo](YOUR_STREAMLIT_APP_URL)
+[Live Demo](https://securemailai.streamlit.app/)
 
 SecureMail AI analyses email text for common phishing indicators, including urgent language, credential requests, financial pressure, suspicious URL patterns, and attachment-related warnings.
 
@@ -11,9 +11,7 @@ SecureMail AI analyses email text for common phishing indicators, including urge
 
 Try the application online:
 
-**[Open SecureMail AI](YOUR_STREAMLIT_APP_URL)**
-
-> Replace `YOUR_STREAMLIT_APP_URL` with your actual Streamlit Community Cloud URL after deployment.
+**[Open SecureMail AI](https://securemailai.streamlit.app/)**
 
 ## ✨ Features
 
@@ -40,7 +38,7 @@ Try the application online:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/YOUR-GITHUB-USERNAME/SecureMailAI.git
+   git clone https://github.com/ab9eha/SecureMailAI.git
    ```
 
 2. Open the project folder:
