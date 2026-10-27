@@ -1,23 +1,33 @@
 
-# SecureMail AI 🛡️
+# 🛡️ SecureMail AI
 
 **An educational email phishing detection dashboard built with Python and Streamlit.**
 
+[🚀 Live Demo](YOUR_STREAMLIT_APP_URL)
+
 SecureMail AI analyses email text for common phishing indicators, including urgent language, credential requests, financial pressure, suspicious URL patterns, and attachment-related warnings.
 
-## Features
+## 🌐 Live Application
+
+Try the application online:
+
+**[Open SecureMail AI](YOUR_STREAMLIT_APP_URL)**
+
+> Replace `YOUR_STREAMLIT_APP_URL` with your actual Streamlit Community Cloud URL after deployment.
+
+## ✨ Features
 
 - Interactive email analysis dashboard
-- Sender, subject, and body inspection
+- Sender, subject, and email body inspection
 - Rule-based phishing risk scoring
 - Low, Medium, High, and Critical risk categories
-- URL extraction and basic structural warnings
-- Explanations for detected indicators
+- URL extraction and basic URL warning checks
+- Explanations of detected indicators
 - Downloadable CSV and TXT reports
 - Sample emails for testing
-- Methodology and limitations page
+- Methodology and project information pages
 
-## Technologies
+## 🧰 Technologies
 
 - Python
 - Streamlit
@@ -25,44 +35,64 @@ SecureMail AI analyses email text for common phishing indicators, including urge
 - Regular expressions
 - URL parsing
 
-## Run locally
+## ⚙️ Run Locally
 
-1. Clone or download this repository.
-2. Open the project folder in VS Code.
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/YOUR-GITHUB-USERNAME/SecureMailAI.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd SecureMailAI
+   ```
+
 3. Create a virtual environment:
 
    ```bash
    python -m venv .venv
    ```
 
-4. Install the dependencies:
+4. Install dependencies on Windows:
 
-   ```bash
-   .venv\Scripts\python.exe -m pip install -r requirements.txt
+   ```powershell
+   .\.venv\Scripts\python.exe -m pip install -r requirements.txt
    ```
 
-5. Start the application:
+5. Run the application:
 
-   ```bash
-   .venv\Scripts\python.exe -m streamlit run app.py
+   ```powershell
+   .\.venv\Scripts\python.exe -m streamlit run app.py
    ```
 
-## How it works
+## 🔍 How It Works
 
-The application searches email text for predefined warning patterns, extracts links, applies simple URL heuristics, and calculates a capped heuristic score. It displays matched indicators and practical recommendations.
+1. **Input:** Enter the email sender, subject, and body.
+2. **Inspection:** The application checks for predefined phishing-related patterns.
+3. **URL analysis:** Links are extracted and checked for selected structural warning signs.
+4. **Risk scoring:** Matched indicators contribute to a heuristic score capped at 100.
+5. **Reporting:** Review the findings and download the analysis report.
 
-## Important limitations
+## ⚠️ Limitations
 
-This is an educational, rule-based prototype, not a trained machine-learning classifier or production email security product. The score is not a probability. The application does not open links, scan attachments, verify sender authenticity, inspect SPF/DKIM/DMARC, or query live threat intelligence. False positives and false negatives are possible.
+SecureMail AI is an educational, rule-based prototype. It is not a trained machine-learning classifier or a production email security system.
 
-Do not use the score alone to determine whether an email is safe.
+- Risk scores are heuristic indicators, not probabilities.
+- The app does not visit URLs or scan attachments.
+- It does not verify sender authenticity or SPF/DKIM/DMARC.
+- It does not query live threat-intelligence services.
+- False positives and false negatives are possible.
 
-## Developer
+**Never rely on this tool alone to decide whether an email is safe.**
+
+## 👩‍💻 Developer
 
 **Abeeha Zeeshan**
 
-Created as an educational project exploring cybersecurity, phishing awareness, and interactive security tooling.
+Created as an educational portfolio project exploring cybersecurity, phishing awareness, and practical security tools.
 
-## License
+## 📄 License
 
-This project is intended for educational and portfolio use. Add a suitable open-source license if you decide to distribute it publicly.
+For educational and portfolio use. Add an open-source license if you decide to distribute the project under specific reuse terms.
